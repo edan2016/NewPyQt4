@@ -1,1 +1,1 @@
-NewPyQt4
+NewPyQt4 Работа с Qt Designer
