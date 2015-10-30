@@ -1,5 +1,7 @@
 from PyQt4.QtGui import QApplication, QMainWindow
+
 from test import *
+
 # ------------------------------
 
 # -------------------------------
