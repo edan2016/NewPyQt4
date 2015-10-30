@@ -1,3 +1,5 @@
+__author__ = 'edward'
+
 from PyQt4.QtGui import QApplication, QMainWindow
 from test import Ui_Form
 # ------------------------------
