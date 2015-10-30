@@ -1,0 +1,24 @@
+# coding: utf8
+import sys
+
+from PyQt4.QtCore import pyqtSlot
+from PyQt4.QtGui import QApplication, QDialog
+from PyQt4.uic import loadUiType
+
+
+app = QApplication(sys.argv)
+app.setApplicationName('${PROJECT_NAME}')
+form_class, base_class = loadUiType('${Form_file}.ui')
+
+
+class MainWindow(QDialog, form_class):
+    def __init__(self, *args):
+        super(MainWindow, self).__init__(*args)
+
+        self.setupUi(self)
+
+#-----------------------------------------------------#
+form = MainWindow()
+form.setWindowTitle('${PROJECT_NAME}')
+form.show()
+sys.exit(app.exec_())

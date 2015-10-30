@@ -1,0 +1,7 @@
+Name: Qt5 Designer
+
+Program: \Lib\site-packages\PyQt5\designer.exe
+
+Parameters:  $FileName$
+
+Working directory: $FileDir$

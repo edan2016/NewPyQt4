@@ -1,0 +1,7 @@
+Name: pyrcc5
+
+Program: \Python 3.5\Lib\site-packages\PyQt4\pyuic5.bat
+
+Parameters:  $FileName$ -o $FileNameWithoutAllExtensions$.pyw
+
+Working directory: $FileDir$

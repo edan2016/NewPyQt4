@@ -1,0 +1,1 @@
+Editor->File Types->Recognizd File Types->XML->->Registered Patterns->+->*.ui

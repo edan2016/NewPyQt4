@@ -1,0 +1,7 @@
+Name: Qt Designer
+
+Program: \Lib\site-packages\PyQt4\designer.exe
+
+Parameters:  $FileName$
+
+Working directory: $FileDir$
