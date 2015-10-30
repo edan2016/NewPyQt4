@@ -1,7 +1,5 @@
 from PyQt4.QtGui import QApplication, QMainWindow
-
-from test import *
-
+from test import Ui_Form
 # ------------------------------
 
 # -------------------------------
